@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: #f6eacb79;
+    
+}
+
+.card {
+    background: rgba(237, 230, 230, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 90%;
+    height: auto;
+    max-width: 470px;
+    margin: 20px 30px 0;
+    padding: 40px 30px;
+    border-radius: 20px;
+    
+    /* max-width: 60vmin; */
+    text-align: center;
+    color: black;
+    /* max-height: 80; */
+    /* background-color: #787C85; */
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .card input{
+    border: none;
+} */
+.search input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 0;
+    outline: 0;
+    flex: 1;
+    padding: 10px 25px;
+    border-radius: 12px;
+    margin-right: 16px;
+    font-size: 18px;
+    /* background: #D1E9F6; */
+
+
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    /* background-color: #D1E9F6; */
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.search button img {
+    width: 25px;
+}
+
+.weather-icon {
+    margin-top: 30px;
+    width: 170px;
+
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    margin-top: 50px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details .col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,
+.wind {
+    font-size: 20px;
+    margin-top: -6px;
+}
+
+.weather {
+    transition: 0.3s;
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+}
